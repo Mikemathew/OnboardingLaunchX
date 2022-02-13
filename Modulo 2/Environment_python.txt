@@ -1,0 +1,98 @@
+
+D:\LaunchX\Onboarding\Modulo 2>python3 -m venv env
+
+D:\LaunchX\Onboarding\Modulo 2>dir
+ El volumen de la unidad D es DATA
+ El número de serie del volumen es: 9C91-3E92
+
+ Directorio de D:\LaunchX\Onboarding\Modulo 2
+
+05/02/2022  02:44 p. m.    <DIR>          .
+05/02/2022  02:44 p. m.    <DIR>          ..
+05/02/2022  02:44 p. m.    <DIR>          env
+               0 archivos              0 bytes
+               3 dirs  999,784,374,272 bytes libres
+
+D:\LaunchX\Onboarding\Modulo 2>cd env
+
+D:\LaunchX\Onboarding\Modulo 2\env>dir
+ El volumen de la unidad D es DATA
+ El número de serie del volumen es: 9C91-3E92
+
+ Directorio de D:\LaunchX\Onboarding\Modulo 2\env
+
+05/02/2022  02:44 p. m.    <DIR>          .
+05/02/2022  02:44 p. m.    <DIR>          ..
+05/02/2022  02:44 p. m.    <DIR>          Include
+05/02/2022  02:44 p. m.    <DIR>          Lib
+05/02/2022  02:44 p. m.               166 pyvenv.cfg
+05/02/2022  02:44 p. m.    <DIR>          Scripts
+               1 archivos            166 bytes
+               5 dirs  999,784,374,272 bytes libres
+
+D:\LaunchX\Onboarding\Modulo 2\env>cd..
+
+D:\LaunchX\Onboarding\Modulo 2>dir
+ El volumen de la unidad D es DATA
+ El número de serie del volumen es: 9C91-3E92
+
+ Directorio de D:\LaunchX\Onboarding\Modulo 2
+
+05/02/2022  02:44 p. m.    <DIR>          .
+05/02/2022  02:44 p. m.    <DIR>          ..
+05/02/2022  02:44 p. m.    <DIR>          env
+               0 archivos              0 bytes
+               3 dirs  999,784,374,272 bytes libres
+
+D:\LaunchX\Onboarding\Modulo 2>md src
+
+D:\LaunchX\Onboarding\Modulo 2>dir
+ El volumen de la unidad D es DATA
+ El número de serie del volumen es: 9C91-3E92
+
+ Directorio de D:\LaunchX\Onboarding\Modulo 2
+
+05/02/2022  02:45 p. m.    <DIR>          .
+05/02/2022  02:45 p. m.    <DIR>          ..
+05/02/2022  02:44 p. m.    <DIR>          env
+05/02/2022  02:45 p. m.    <DIR>          src
+               0 archivos              0 bytes
+               4 dirs  999,784,374,272 bytes libres
+
+D:\LaunchX\Onboarding\Modulo 2>env\bin\activate
+El sistema no puede encontrar la ruta especificada.
+
+D:\LaunchX\Onboarding\Modulo 2>source env/bin/activate
+"source" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+D:\LaunchX\Onboarding\Modulo 2>python3 -m venv env
+
+D:\LaunchX\Onboarding\Modulo 2>source env/bin/activate
+"source" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+D:\LaunchX\Onboarding\Modulo 2>env/scripts/activate.bat
+"env" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+D:\LaunchX\Onboarding\Modulo 2>env\scripts\activate.bat
+
+(env) D:\LaunchX\Onboarding\Modulo 2>pip freeze
+
+(env) D:\LaunchX\Onboarding\Modulo 2>pip install python-dateutil
+Collecting python-dateutil
+  Using cached python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
+Collecting six>=1.5
+  Using cached six-1.16.0-py2.py3-none-any.whl (11 kB)
+Installing collected packages: six, python-dateutil
+Successfully installed python-dateutil-2.8.2 six-1.16.0
+WARNING: You are using pip version 21.2.4; however, version 22.0.3 is available.
+You should consider upgrading via the 'D:\LaunchX\Onboarding\Modulo 2\env\Scripts\python.exe -m pip install --upgrade pip' command.
+
+(env) D:\LaunchX\Onboarding\Modulo 2>pip freeze
+python-dateutil==2.8.2
+six==1.16.0
+
+(env) D:\LaunchX\Onboarding\Modulo 2>env\scripts\deactivate.bat
+D:\LaunchX\Onboarding\Modulo 2>
